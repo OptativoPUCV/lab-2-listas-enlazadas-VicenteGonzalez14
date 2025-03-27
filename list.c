@@ -62,9 +62,10 @@ void * prevList(List * list) {
 }
 
 void pushFront(List * list, void * data) {
+    /* 
     Node * createNode();
     Node * createNode = (Node*)malloc(sizeof(Node));
-    
+*/
 
 }
 

@@ -68,3 +68,9 @@ list.c:66:12: error: unused variable 'createNode' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 6971991
+Thu, Mar 27, 2025  5:52:31 PM: 
+ list.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  5|4
+total_score: 25/70
+a5a03f6

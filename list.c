@@ -63,10 +63,19 @@ void * prevList(List * list) {
 }
 
 void pushFront(List * list, void * data) {
-    /* 
-    Node * createNode();
-    Node * createNode = (Node*)malloc(sizeof(Node));
-*/
+    Node * newNode = createNode(data);
+    newNode->data = data;
+    newNode->prev = NULL;
+    newNode->next = NULL;
+    if(list->head == NULL){
+        newNode = list->head;
+        newNode = list->tail;
+    }
+    else{
+        newNode->next = list->head;
+        list->head->prev = newNode;
+        list->head = newNode;
+    }
 
 }
 
